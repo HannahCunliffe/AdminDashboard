@@ -1,0 +1,28 @@
+body {
+    /* removes default margin applied to page */
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    /* 100vh ensures the grid covers the entire page by setting 
+    its single row to cover the entire page's height */
+    grid-template: 100vh / 1fr 5fr;
+}
+
+.sidebar {
+    background-color: blue;
+
+}
+
+.page-content {
+    background-color: red;
+}
+
+.header {
+    background-color: yellow;
+}
+
+.main-content{
+    background-color: green;
+}
