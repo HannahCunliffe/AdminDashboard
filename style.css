@@ -11,7 +11,7 @@ body {
 }
 
 .sidebar {
-    background-color: rgb(30, 30, 119);
+    background-color: #1992d4;
 
 }
 
@@ -22,10 +22,23 @@ body {
 }
 
 .header {
-    background-color: yellow;
-    
+    background-color: #ffffff;
 }
 
 .main-content{
-    background-color: green;
+    background-color: #e2e8f0;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.projectItem {
+    background-color: #ffffff;
+}
+
+.announcementItems {
+    background-color: #ffffff;
+}
+
+.trendingItems {
+    background-color: #ffffff;
 }
