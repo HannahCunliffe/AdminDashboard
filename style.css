@@ -18,12 +18,30 @@ body {
 .page-content {
     background-color: rgb(139, 25, 25);
     display: grid;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 0.70fr 4fr;
 }
 
 .header {
     background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-top: 20px;
 }
+
+.searchAndGreeting {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.options {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+/* .searchAndAccount {
+   display: flex;
+   justify-content: space-between;
+} */
 
 .main-content{
     background-color: #e2e8f0;
@@ -42,3 +60,4 @@ body {
 .trendingItems {
     background-color: #ffffff;
 }
+
